@@ -26,7 +26,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            terrycain/backstage-techdocs-image
+            ghcr.io/terrycain/backstage-techdocs-image
           tags: |
             type=ref,event=branch
             type=ref,event=pr
